@@ -8,7 +8,7 @@ jobs:
   name: foo 
     runs-on: ubuntu-latest
   
-  steps: 
-   - name: Echo
-     run: echo devops 
+    steps: 
+      - name: Echo
+        run: echo devops 
 
