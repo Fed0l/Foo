@@ -1,0 +1,14 @@
+name: fedros
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  name: foo 
+    runs-on: ubuntu-latest
+  
+  steps: 
+   - name: Echo
+     run: echo devops 
+
