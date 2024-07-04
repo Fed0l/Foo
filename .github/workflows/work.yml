@@ -12,3 +12,12 @@ jobs:
       - name: Echo
         run: echo devops 
 
+
+  test2:
+    runs-on: ubuntu-latest
+    needs: test
+      
+    steps:
+      - name: Echo2
+        run: echo Devaps Example
+
